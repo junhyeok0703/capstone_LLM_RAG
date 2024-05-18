@@ -1,0 +1,19 @@
+.chat-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-messages {
+  flex-grow: 1;
+  overflow-y: auto;
+}
+
+.message {
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid #ddd;
+}
+
+input[type="text"] {
+  margin-top: auto;
+}

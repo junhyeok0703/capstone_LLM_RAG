@@ -1,0 +1,14 @@
+.app-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.chat-section,
+.quote-list,
+.previous-quotes {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  flex: 1;
+}
