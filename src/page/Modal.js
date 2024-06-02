@@ -1,11 +1,11 @@
 import React from "react";
 import "./Modal.css";
 
-const Modal = ({ onClose, children }) => (
+const Modal = ({ onClose, children, buttonText = "닫기" }) => (
   <div className="modal-overlay" onClick={onClose}>
     <div className="modal-content" onClick={(e) => e.stopPropagation()}>
       {children}
-      <button onClick={onClose}>닫기</button>
+      <button onClick={onClose}>{buttonText}</button>
     </div>
   </div>
 );
